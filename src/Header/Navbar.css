@@ -1,0 +1,28 @@
+
+
+
+.allNav{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #F9FAFA;
+    height: 100vh;
+}
+
+ul,a,li{
+    display: flex;
+    margin: 20px;
+    color: #F9FAFA;
+    list-style: none;
+    text-decoration: none;
+}
+
+
+
+.homePAGE {
+    margin-bottom:100px;
+    font-family: 'Dancing Script', cursive;
+    font-size: 15px;
+    font-weight: 400;
+
+}
