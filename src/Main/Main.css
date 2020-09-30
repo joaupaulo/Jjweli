@@ -1,37 +1,33 @@
 
 .container{
- 
- 
     height: 100vh;
-   
+ 
 }
 
 
-.card{
-display: grid;
-    grid-template-columns: 300px;
-    grid-template-rows: 210px 210px ;
-    grid-template-areas: "image"  "text";
-    border-radius: 18px;
-color: white;
+.boxcard{
 
-
-
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    text-align: center;
+  margin-top: 80px; 
 
 }
 
-.card-image {
-grid-area: image;
-background-size: cover;
+.card img{
+    border-radius: 2px; 
+ }
+
+.card{ 
 
 
 
 
-}
+ }
 
-.card-text{
-    grid-area: text;
-}
+
+
 
 
 img{

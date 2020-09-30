@@ -2,6 +2,7 @@
  import './Navbar.css'
  import {menu} from './menu'
 import Logo from '../images/logo.png'
+import video from '../images/hum.mp4'
 
  const Navbar = () =>  {
 
@@ -14,7 +15,7 @@ return (
 
 
     
-    <nav className="allNav">   
+    <nav className="allNav"  style={{ background: `url(${video})` }} >   
 
 
 <div>  
