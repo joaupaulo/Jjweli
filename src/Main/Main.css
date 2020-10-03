@@ -9,19 +9,18 @@
 
     display: flex;
     justify-content: space-around;
-    color: white;
+    color: black;
     text-align: center;
   margin-top: 80px; 
 
 }
 
 .card img{
-    border-radius: 2px; 
+    border-radius: 4px; 
  }
 
 .card{ 
-
-
+    font-family: 'Roboto', sans-serif;
 
 
  }

@@ -2,12 +2,9 @@
  import './Navbar.css'
  import {menu} from './menu'
 import Logo from '../images/logo.png'
-import video from '../images/hum.mp4'
+import video from '../images/vitoria.jpg'
 
  const Navbar = () =>  {
-
-var [click,setClick]=useState()
-  
 
 
 return ( 
@@ -15,7 +12,7 @@ return (
 
 
     
-    <nav className="allNav"  style={{ background: `url(${video})` }} >   
+    <nav className="allNav"  style={{ backgroundImage: `url(${video})` }} >   
 
 
 <div>  

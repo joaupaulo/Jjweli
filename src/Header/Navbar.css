@@ -5,16 +5,21 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    color: #F9FAFA;
+    color:#f9fbe7;
     height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 ul,a,li{
     display: flex;
     margin: 20px;
-    color: #F9FAFA;
+    color:#f9fbe7;
     list-style: none;
     text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+ 
+
 }
 
 
@@ -22,7 +27,7 @@ ul,a,li{
 .homePAGE {
     margin-bottom:100px;
     font-family: 'Dancing Script', cursive;
-    font-size: 15px;
+    font-size: 18px;
     font-weight: 400;
 
 }
